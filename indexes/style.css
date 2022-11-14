@@ -1,0 +1,70 @@
+ *,
+*::before,
+*::after{
+box-sizing: border-box;
+margin: 0px;
+padding: 0px; 
+} 
+body{
+    background-color:rgb(238, 222, 238) ;
+}
+.main{
+     margin: 20pt auto; 
+    max-width: 500px;
+    border-radius: 50px; 
+
+} 
+.top-section{
+background-color: rgb(255, 255, 255);
+padding: 15px 10px;
+}
+.header{
+    color: rgb(20, 168, 168);
+}
+.money{
+    color: rgb(235, 204, 27);
+}
+.access{
+    color: rgb(211, 211, 214);
+} 
+.bottom-section{
+    display: flex;background-color: rgb(60, 207, 207);
+    padding: 15px 10px;
+
+}
+.section-one{
+/* background-color: rgb(12, 130, 130); */
+flex-basis: 100%;
+color: whitesmoke;
+}
+.per{
+    display: flex;
+}
+.dollar{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.h5{
+    font-weight: 10;
+    margin-left: 10px;
+}
+.cta{
+    width: 70%;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: rgb(198, 226, 14);
+    color: white;
+    padding: 10px 15px;
+}
+button:hover{
+    background-color: rgb(240, 126, 126);
+    cursor: pointer;
+
+}
+
+.section-two{
+background-color: rgb(60, 207, 200) ;
+flex-basis: 100%;
+color: whitesmoke;
+}
+
